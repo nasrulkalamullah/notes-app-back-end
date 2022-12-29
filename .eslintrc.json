@@ -1,0 +1,24 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "indent": "off",
+        "parser": "@babel/eslint-parser",
+        "eol-last": 0,
+        "no-multiple-empty-lines": [2, {"max": 99999, "maxEOF": 0}],
+        "linebreak-style": 0
+    }
+}
