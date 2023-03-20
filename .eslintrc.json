@@ -16,7 +16,7 @@
     "rules": {
         "no-console": "off",
         "indent": "off",
-        "parser": "@babel/eslint-parser",
+
         "eol-last": 0,
         "no-multiple-empty-lines": [2, {"max": 99999, "maxEOF": 0}],
         "linebreak-style": 0
